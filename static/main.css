@@ -1,0 +1,33 @@
+
+html.fp-enabled,
+
+
+
+.eng {
+    font-family: 'Playfair Display', serif;
+}
+.kor {
+     font-family: 'Nanum Myeongjo', serif;
+}
+p {
+    color : white;
+}
+span {
+    color : white;
+}
+div .parent {
+    display : flex;
+}
+div .child1 {
+    flex : 1.5;
+}
+div .child2 {
+    flex : 1;
+}
+body {
+	background-color: #6f9191;
+}
+
+.updown {
+    border: 5px solid black; width: 0.1px; height: 50px;
+}
