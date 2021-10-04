@@ -73,17 +73,13 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# jackerlab_django/settings.py
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'database-bgm.cuis7fud83mq.ap-northeast-2.rds.amazonaws.com',
-        'PORT': '3306',
-        'NAME': 'bgm', # <-----이부분 중요 !! db인스턴스명이 아니라 유저이름과 동일하게 SET!
-        'USER': 'admin',
-        'PASSWORD': '6709159l!',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators

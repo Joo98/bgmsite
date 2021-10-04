@@ -16,13 +16,17 @@ span {
     color : white;
 }
 div .parent {
-    display : flex;
+
 }
 div .child1 {
-    flex : 1.5;
+    width : 60vw;
+    min-width : 30hw;
+    margin-left : 3vw;
 }
 div .child2 {
-    flex : 1;
+    width : 30vw;
+    min-width : 30hw;
+    margin-left : 60vw
 }
 body {
 	background-color: #6f9191;
